@@ -32,6 +32,11 @@ public class Vaca {
         this.litres = litres;
     }
 
+    @Override
+    public String toString() {
+        return nom + "(" + litres + ")";
+    }
+
 
 
 }
